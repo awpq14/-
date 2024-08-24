@@ -62,7 +62,7 @@ class TestWin(QWidget):
 
     def next_click(self):
         self.hide()
-        Final = FinalWin()
+        self.Final = FinalWin()
      
 
     def connects(self):
