@@ -12,7 +12,12 @@ class FinalWin(QWidget):
         self.show()  # старт
 
     def set_appear(self):
-        ...
+        self.setWindowTitle("тест руфє")
 
     def initUI(self):
-        ...
+        lbl1 = QLabel(txt_index)
+        lbl2 = QLabel(txt_workheart)
+        layout = QVBoxLayout()
+        layout.addWidget(lbl1)
+        layout.addWidget(lbl2)
+        self.setLayout(layout)
